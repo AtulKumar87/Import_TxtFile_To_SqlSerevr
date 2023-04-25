@@ -1,0 +1,20 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    @using (Html.BeginForm("/", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        @Html.TextBox("txtFile", null, new { Type = "file" })
+        <input type="submit" id="btnsubmit" value="Submit" />
+    }
+</body>
+</html>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33529.622
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Import_txtfile_to_SqlServer", "Import_txtfile_to_SqlServer\Import_txtfile_to_SqlServer.csproj", "{3AD1FE77-49B0-4A31-ADCB-24884758578B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Import_txtfile_to_SqlServer.Tests", "Import_txtfile_to_SqlServer.Tests\Import_txtfile_to_SqlServer.Tests.csproj", "{8C764235-336D-438F-99A1-2A84EAAA4404}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AD1FE77-49B0-4A31-ADCB-24884758578B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AD1FE77-49B0-4A31-ADCB-24884758578B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AD1FE77-49B0-4A31-ADCB-24884758578B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AD1FE77-49B0-4A31-ADCB-24884758578B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C764235-336D-438F-99A1-2A84EAAA4404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C764235-336D-438F-99A1-2A84EAAA4404}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C764235-336D-438F-99A1-2A84EAAA4404}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C764235-336D-438F-99A1-2A84EAAA4404}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95C04D62-4DAC-47BD-8B1C-7B524563CE85}
+	EndGlobalSection
+EndGlobal
